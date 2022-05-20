@@ -1,0 +1,15 @@
+main{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+}
+.sing-in-section{
+    width: 80%;
+    height: 740px;
+    margin: 0 auto;
+}
+.sing-in-section .small-logo{
+    font-size: 3.4rem;
+    color: white;
+}
