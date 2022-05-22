@@ -66,10 +66,14 @@ main{
 }
 .sing-in-button--email{
     margin-top: 10px;
+    padding: 0px 8px;
     border: none;
     font-weight: bold;
     color: white;
     text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    white-space: nowrap;
     background-color: #1d9bf0;
 }
 .sing-in-section__text{
@@ -77,6 +81,9 @@ main{
     font-size: 1rem;
     line-height: 1.2rem;
     color: #71767b;
+}
+.sing-in-section__links{
+    color: #1d9bf0;
 }
 .sing-in-section__account-text{
     margin-top: 52px;
