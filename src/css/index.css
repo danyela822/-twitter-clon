@@ -1,17 +1,17 @@
 main{
-    width: 100%;
+    width: auto;
     height: auto;
     background-color: black;
     color: white;
-    padding-top: 24px;
 }
 .sing-in-section{
     width: 80%;
-    height: 722px;
+    max-width: 534px;
+    height: auto;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    padding: 12px;
+    padding: 32px 12px;
 }
 .sing-in-section .small-logo{
     font-size: 3.8rem;
@@ -30,7 +30,8 @@ main{
     font-weight: 700;
 }
 .sing-in-section__buttons{
-    width: 100%;
+    min-width: 224px;
+    max-width: 268px;
     height: 100px;
     margin-top: 8px;
     display: flex;
@@ -39,11 +40,15 @@ main{
     justify-content: space-around;
 }
 .sing-in-button{
-    width: 100%;
+    min-width: 224px;
+    max-width: 268px;
     height: 36px;
     border-radius: 20px;
 }
-.sing-in-button--accounts-buttons{
+.sing-in-button__account-button{
+    width: 100%;
+    height: 36px;
+    border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -59,7 +64,8 @@ main{
     color: black;
 }
 .sing-in-section__spacer{
-    width: 100%;
+    min-width: 224px;
+    max-width: 268px;
     margin-top: 4px;
     text-align: center;
     font-size: 1.4rem;
@@ -77,6 +83,7 @@ main{
     background-color: #1d9bf0;
 }
 .sing-in-section__text{
+    max-width: 268px;
     margin-top: 8px;
     font-size: 1rem;
     line-height: 1.2rem;
@@ -91,14 +98,15 @@ main{
 }
 .sing-in-button--login{
     margin-top: 12px;
+    margin-bottom: 24px;
     font-weight: bold;
     color: #1d9bf0;
     border: 1px solid #3a464f;
     background-color: #ffffff00;
 }
 .logo-section{
-    width: 100%;
-    height: 258px;
+    height: auto;
+    padding: 12px;
     background-image: url('https://abs.twimg.com/sticky/illustrations/lohp_850x623.png');
     background-size: cover;
     background-position: center;
@@ -110,7 +118,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 18rem;
+    font-size: 24rem;
 }
 footer{
     width: 100%;

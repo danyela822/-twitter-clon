@@ -1,0 +1,16 @@
+main{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.sing-in-section{
+    min-width: 764px;
+    margin: 0;
+    padding: 32px 20px;
+}
+.logo-section{
+    flex-grow: 1;
+    padding: 0;
+}
+.sing-in-section__buttons{
+    align-items: flex-start;
+}
