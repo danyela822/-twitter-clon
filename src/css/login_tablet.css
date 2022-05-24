@@ -1,0 +1,10 @@
+main{
+    display: grid;
+    align-content: center;
+}
+.principal-container{
+    width: 600px;
+    position: relative;
+    left: calc(50% - 300px);
+    border-radius: 20px;
+}

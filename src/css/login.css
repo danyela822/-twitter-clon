@@ -5,7 +5,7 @@ main{
 }
 .principal-container{
     min-width: 300px;
-    max-width: 600px;
+    max-width: 684px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -68,7 +68,7 @@ main{
 }
 .principal-container__text-account{
     display: block;
-    margin-top: 32px;
+    margin: 32px 0;
     font-size: 1.5rem;
     color: #71767B;
 }
