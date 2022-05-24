@@ -5,29 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/login.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/63199c144b.js" crossorigin="anonymous"></script>
     <title>Login</title>
 </head>
 <body>
     <main>
-        <span>LOGO</span>
-        <h1>Inicia sesión en Twitter</h1>
-        <form action="">
-            <a href="">
-                <span>Logo</span>
-                Iniciar sesión con Google
-            </a>
-            <a href="">
-                <span>Logo</span>
-                Iniciar Sesión con Apple
-            </a>
-            <div>o</div>
-            <input type="text" placeholder="Teléfono, correo electrónico o nombre de usuario">
-            <a href="">Siguente</a>
-            <a href="">¿Olvidaste tu contraseña?</a>
-        </form>
-        <span>¿No tienes una cuenta? <a href="">Regístrate</a></span>
+        <div class="principal-container">
+            <span><i class="principal-container__logo fa-brands fa-twitter"></i></span>
+            <h1 class="principal-container__title">Inicia sesión en Twitter</h1>
+            <form action="">
+                <a href="" class="buttons">
+                    <span class="buttons__icon"><i class="fa-brands fa-google"></i></span>
+                    Iniciar sesión con Google
+                </a>
+                <a href="" class="buttons">
+                    <span class="buttons__icon"><i class="fa-brands fa-apple"></i></span>
+                    Iniciar Sesión con Apple
+                </a>
+                <div class="principal-container__spacer">o</div>
+                <input type="text" class="principal-container__email" placeholder="Teléfono, correo electrónico o nombre de usuario">
+                <a href="" class="buttons">Siguiente</a>
+                <a href="" class="buttons buttons--password">¿Olvidaste tu contraseña?</a>
+                <span class="principal-container__text-account">¿No tienes una cuenta? <a href="" 
+                    class="principal-container__text-register">Regístrate</a></span>
+            </form>
+        </div>      
     </main>
 </body>
 </html>
