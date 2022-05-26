@@ -1,35 +1,3 @@
-main{
-    width: 100%;
-    height: 100vh;
-    background-color: #242d34;
-}
-.principal-container{
-    min-width: 300px;
-    max-width: 684px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 12px;
-    background-color: black;
-}
-.principal-container__close{
-    color: #d6d9db;
-    font-size: 2.2rem;
-    position: absolute;
-    left: 20px;
-    top: 16px;
-}
-.principal-container__logo{
-    font-size: 3.2rem;
-    color: #d6d9db;
-}
-.principal-container__title{
-    margin-top: 32px;
-    font-size: 2.2rem;
-    font-weight: 800;
-    color: #d6d9db;
-}
 .principal-container__input{
     width: 100%;
     height: 56px;
