@@ -13,6 +13,13 @@ main{
     padding: 12px;
     background-color: black;
 }
+.principal-container__close{
+    color: #d6d9db;
+    font-size: 2.2rem;
+    position: absolute;
+    left: 20px;
+    top: 16px;
+}
 .principal-container__logo{
     font-size: 3.2rem;
     color: #d6d9db;
@@ -22,35 +29,6 @@ main{
     font-size: 2.2rem;
     font-weight: 800;
     color: #d6d9db;
-}
-.buttons{
-    width: 288px;
-    height: 36px;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 30px;
-    font-size: 1.4rem;
-    font-weight: bold;
-    color: #0f1419;
-    background-color: white;
-}
-.buttons--password{
-    border: 1px solid #333639;
-    color: white;
-    background-color: #00000000;
-}
-.buttons__icon{
-    font-size: 2rem;
-    color: black;
-    margin-right: 8px;
-}
-.principal-container__spacer{
-    margin-top: 16px;
-    text-align: center;
-    font-size: 1.4rem;
-    color: white;
 }
 .principal-container__input{
     width: 100%;
@@ -68,20 +46,6 @@ main{
     color: white;
     background-color: #00000000;
 }
-.principal-container__text-account{
-    display: block;
-    margin: 32px 0;
-    font-size: 1.5rem;
-    color: #71767B;
-}
-.principal-container__text-register{
-    color: #1d9bf0;
-}
-
-
-
-
-
 form{
     display: flex;
     flex-direction: column;
@@ -89,16 +53,16 @@ form{
     width: 85%;
     max-width: 600px;
 }
-.text-container{
-    width: 100%;
-    margin-top: 30px;
-}
 .principal-container__link{
     align-self: flex-end;
     margin-top: 8px;
     border: none;
     color: #1d9bf0;
     background-color: #00000000;
+}
+.text-container{
+    width: 100%;
+    margin-top: 30px;
 }
 .text-container__paragraph{
     font-size: 1.4rem;

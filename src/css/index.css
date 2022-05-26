@@ -43,7 +43,10 @@ main{
     min-width: 224px;
     max-width: 268px;
     height: 36px;
+    padding-top: 8px;
     border-radius: 20px;
+    font-size: 1.4rem;
+    text-align: center;
 }
 .sing-in-button__account-button{
     width: 100%;
@@ -72,7 +75,7 @@ main{
 }
 .sing-in-button--email{
     margin-top: 10px;
-    padding: 0px 8px;
+    padding-left: 8px;
     border: none;
     font-weight: bold;
     color: white;
