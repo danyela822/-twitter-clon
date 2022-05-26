@@ -1,0 +1,17 @@
+main{
+    display: grid;
+    align-content: center;
+}
+.principal-container{
+    width: 600px;
+    position: relative;
+    left: calc(50% - 300px);
+    border-radius: 20px;
+}
+form{
+    width: 75%;
+    max-width: 600px;
+}
+.next-button{
+    width: 70%;
+}
